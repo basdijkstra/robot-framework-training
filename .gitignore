@@ -133,3 +133,6 @@ pytest.ini
 # Robot Framework reports
 *.html
 *.xml
+
+# Screenshots from SeleniumLibrary
+*.png
