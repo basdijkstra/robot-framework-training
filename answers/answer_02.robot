@@ -11,7 +11,7 @@ ${HOMEPAGE}  http://parabank.parasoft.com
 ${BROWSER}   Chrome
 
 *** Test Cases ***
-Log in to ParaBank as John and check browser window title
+Log in to ParaBank as John and check number of log out links
     ### Exercise 2
     # Replace the actual values for the homepage URL and the browser
     # with the variable values you defined in Exercise 1
