@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    A first example using SeleniumLibrary
+Documentation    Answer for exercise 01 - A first SeleniumLibrary test
 Library          SeleniumLibrary
 
 *** Test Cases ***

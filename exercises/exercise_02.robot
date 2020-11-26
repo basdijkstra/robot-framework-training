@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    A first example using SeleniumLibrary
+Documentation    Exercise 02 - Using variables
 Library          SeleniumLibrary
 
 ### Exercise 1

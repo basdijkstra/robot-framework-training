@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    A first example using SeleniumLibrary
+Documentation    Example using setup and teardown
 Library          SeleniumLibrary
 Test Setup       Open Browser  ${BASE_URL}  ${BROWSER}
 Test Teardown    Close Browser

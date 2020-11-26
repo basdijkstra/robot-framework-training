@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    A first example using SeleniumLibrary
+Documentation    Answer for exercise 03 - Using setup and teardown
 Library          SeleniumLibrary
 ### Exercise 1
 # Add Test Setup (Open Browser) and Test Teardown (Close Browser) keywords here
