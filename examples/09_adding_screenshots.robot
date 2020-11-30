@@ -19,6 +19,6 @@ Get Number Of Articles For
     [Arguments]  ${article_name}
     Wait And Type  id:search_query_top  ${article_name}
     Wait And Click  name:submit_search
-    Capture Page Screenshot  file=EMBED
+    Capture Page Screenshot  filename=EMBED
     ${number_of_images}=  Wait And Get Element Count  //img[@itemprop='image']
     [Return]  ${number_of_images}
