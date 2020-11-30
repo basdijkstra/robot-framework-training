@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Answer for exercise 03 - Using custom keywords
+Documentation    Answer for exercise 04 - Using custom keywords
 Library          SeleniumLibrary
 ### Exercise 2
 # Replace the existing Test Setup keyword with your custom keyword from Exercise 1
