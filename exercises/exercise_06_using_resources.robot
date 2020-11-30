@@ -6,6 +6,7 @@ Test Teardown    Close Browser
 ### Exercise 2
 # Use the keywords file from Exercise 1 as a resource
 # Run the test to see if it works
+# What can you clean up from this .robot file after you're done?
 
 *** Variables ***
 ${HOMEPAGE}  http://parabank.parasoft.com

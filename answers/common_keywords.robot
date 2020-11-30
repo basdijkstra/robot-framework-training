@@ -18,7 +18,7 @@ Wait And Type
 Wait And Click
     [Arguments]  ${locator}
     Wait Until Element Is Enabled  ${locator}  ${TIMEOUT}
-    Click Button  ${locator}
+    Click Element  ${locator}
 
 Wait And Get Element Count
     [Arguments]  ${locator}
