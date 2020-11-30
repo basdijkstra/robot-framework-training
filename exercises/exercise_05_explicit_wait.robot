@@ -11,7 +11,7 @@ ${TIMEOUT}   10
 
 *** Test Cases ***
 Log in to ParaBank as John and check number of menu options
-    ${number_of_menu_options}=  Log In As And Get Number Of Menu Options With Custom Keywords  john  demo
+    ${number_of_menu_options}=  Log In As And Get Number Of Menu Options  john  demo
     Should Be Equal As Integers  ${number_of_menu_options}  8
 
 *** Keywords ***
