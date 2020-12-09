@@ -6,7 +6,7 @@ Library          SeleniumLibrary
 # - Opens Chrome
 # - Navigates to http://parabank.parasoft.com
 # - Sets the implicit wait timeout to 10 seconds
-Test Setup       Open And Maximize With Implicit Wait  ${HOMEPAGE}  ${URL}  10
+Test Setup       Open And Maximize With Implicit Wait  ${HOMEPAGE}  ${BROWSER}  10
 Test Teardown    Close Browser
 
 *** Variables ***
