@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Answers 02
+Documentation    Exercises 03
 Library          RequestsLibrary
 
 *** Variables ***
@@ -10,3 +10,10 @@ Retrieve data for user 1 and check the response status code
     Create Session  zip  ${BASE_URL}  verify=True
     ${response}  GET On Session  zip  /users/1
     Status Should Be    200  ${response}
+    Delete All Sessions
+
+Retrieve data for user 2 and check the response status code
+    Create Session  zip  ${BASE_URL}  verify=True
+    ${response}  GET On Session  zip  /users/2
+    Status Should Be    200  ${response}
+    Delete All Sessions
