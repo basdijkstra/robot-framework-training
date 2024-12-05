@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Example using custom keywords
+Documentation    Examples 04
 Library          SeleniumLibrary
 Test Setup       Open And Maximize  ${BASE_URL}  ${BROWSER}
 Test Teardown    Close Browser

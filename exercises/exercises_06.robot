@@ -1,3 +1,6 @@
+*** Settings ***
+Documentation  Exercises 06
+
 # Create a test that:
 # - Uses the Browser library
 # - Navigates to https://www.saucedemo.com

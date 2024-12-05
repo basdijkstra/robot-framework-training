@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Exercises 05
+Documentation    Answers 05
 Library          RequestsLibrary
 Library          Collections
 Resource         resources/api_testing_keywords.resource
