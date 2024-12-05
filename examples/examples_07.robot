@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  Examples 06
+Documentation  Examples 07
 Library  Browser
 Test Template  Log In To ParaBank
 
