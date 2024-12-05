@@ -2,7 +2,7 @@
 Documentation    Exercises 05
 Library          RequestsLibrary
 Library          Collections
-Resource         resources/common_keywords.resource
+Resource         resources/api_testing_keywords.resource
 Test Setup       Create Session  zip  ${BASE_URL}  verify=True
 Test Teardown    Delete All Sessions
 

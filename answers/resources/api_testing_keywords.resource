@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  Library containing common keywords used in our tests
+Documentation  Library containing API testing keywords used in our tests
 Library          RequestsLibrary
 Library          Collections
 

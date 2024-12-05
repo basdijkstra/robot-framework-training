@@ -136,3 +136,6 @@ pytest.ini
 
 # Screenshots from SeleniumLibrary
 *.png
+
+# Playwright log
+playwright-log.txt
