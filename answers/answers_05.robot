@@ -16,4 +16,4 @@ Retrieve data for user 1 and check the response status code
 
 Retrieve data for user 2 and check the response status code
     ${response}  GET On Session  zip  /users/2
-    Verify Response Status And Name    ${response}  200  Ervin Howell
+    Verify Response Status And Name    ${response}  200  Ervin Howall
